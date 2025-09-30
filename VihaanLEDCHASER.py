@@ -1,0 +1,28 @@
+from gpiozero import LED
+from time import sleep
+led1 = LED(14)
+led2 = LED(21)
+led3 = LED(18)
+led4 = LED(17)
+led5 = LED(27)
+led6 = LED(20)
+a = 1
+while True:
+    led1.on()
+    sleep(a)
+    led1.off()
+    led2.on()
+    sleep(a)
+    led2.off()
+    led3.on()
+    sleep(a)
+    led3.off()
+    led4.on()
+    sleep(a)
+    led4.off()
+    led5.on()
+    sleep(a)
+    led5.off()
+    led6.on()
+    sleep(a)
+    led6.off()
